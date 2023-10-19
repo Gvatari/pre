@@ -3,8 +3,8 @@ let passport = {
     surname: "Petrov",
 };
 
-let passport2 = {...passport};
-passport2.name = "Ivan";
+let qwe = {...passport};
+qwe.name = "Ivan";
 
-console.log(passport2);
 console.log(passport);
+console.log(qwe);
