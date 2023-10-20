@@ -7,8 +7,8 @@ let passportWithAddress = {
     }
 };
 
-let bobryisk = {...passportWithAddress};
+let qwerty = {...passportWithAddress};
 
-bobryisk.city = "Bobryisk";
+qwerty.address.city = "Bobryisk";
 
-console.log(bobryisk.city);
+console.log(qwerty.address.city);
