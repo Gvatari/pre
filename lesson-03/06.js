@@ -31,6 +31,6 @@ const users3 = [
     },
 ];
 
-users3.forEach(item => item.married = true);
+users3.forEach(item => item.isMarried = true);
 
 console.log(users3);
