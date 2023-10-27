@@ -31,8 +31,6 @@ const users3 = [
     },
 ];
 
-const addMarriedStatus = users3.map((item) => {
-    return {...item, married: true}
-});
+users3.forEach(item => item.married = true);
 
-console.log(addMarriedStatus);
+console.log(users3);
